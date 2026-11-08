@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laiba Rafiq | Cyber Security Portfolio</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --accent: #58a6ff;
+      --text: #c9d1d9;
+      --text-bright: #ffffff;
+      --border: #30363d;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      color: var(--text-bright);
+      margin: 0 0 8px 0;
+      font-size: 2rem;
+    }
+    .subtitle {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin: 0 0 16px 0;
+    }
+    h2 {
+      color: var(--text-bright);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-top: 36px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: var(--text-bright);
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    .tag {
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--accent);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 0.85rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Laiba Rafiq</h1>
+      <p class="subtitle">BS IT Student | Cyber Security & Network Defense</p>
+      <p>Virtual University of Pakistan, Islamabad</p>
+      <p>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> • 
+        <a href="https://github.com" target="_blank">GitHub</a> • 
+        <a href="mailto:contact@example.com">Email Me</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Information Technology student specializing in cyber security, defensive systems, and network protocols. Focused on vulnerability analysis, secure configuration, and hands-on lab experimentation.</p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <div class="tags">
+        <span class="tag">Network Security</span>
+        <span class="tag">Wireshark</span>
+        <span class="tag">TCP/IP Protocols</span>
+        <span class="tag">Linux / Ubuntu</span>
+        <span class="tag">VirtualBox</span>
+        <span class="tag">Packet Analysis</span>
+        <span class="tag">Nmap Basics</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hands-On Security Labs</h2>
+      <div class="card">
+        <h3>1. Wireshark Network Packet Inspection</h3>
+        <p>Captured and inspected HTTP vs. HTTPS traffic on a virtual test network to evaluate authentication payload visibility and handshake flows.</p>
+        <div class="tags">
+          <span class="tag">Wireshark</span>
+          <span class="tag">Packet Capture</span>
+          <span class="tag">Traffic Analysis</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>2. Virtual Linux & Network Hardening</h3>
+        <p>Configured isolated virtual machines in VirtualBox, establishing firewall boundaries, disabling insecure services, and restricting administrative privileges.</p>
+        <div class="tags">
+          <span class="tag">Linux</span>
+          <span class="tag">System Hardening</span>
+          <span class="tag">Access Control</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education & Competitions</h2>
+      <ul>
+        <li><strong>BS Information Technology</strong> — Virtual University of Pakistan</li>
+        <li><strong>Cisco EMEA Cyber Cup</strong> — Competitor / Participant</li>
+        <li><strong>IoT & Networking Basics</strong> — Cisco Networking Academy</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
